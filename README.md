@@ -1,6 +1,6 @@
 # phash-match
 
-Find **visually similar images** — resized, recompressed, brightened or recolored copies — with perceptual hashes (**pHash**, **dHash**, **aHash**) and Hamming distance. Pure Python on Pillow + NumPy.
+Find **visually similar images**: resized, recompressed, brightened or recolored copies, with perceptual hashes (**pHash**, **dHash**, **aHash**) and Hamming distance. Pure Python on Pillow + NumPy.
 
 It illustrates the first, cheapest stage of the image-matching idea I use at [Sealify](https://sealify.io) to find copies of registered content across the web: a compact 64-bit fingerprint per image, compared in microseconds. (Sealify's production engine adds learned embeddings, face matching and more; this repo is an independent, from-scratch implementation of the fingerprinting idea only and does not contain Sealify code.)
 
